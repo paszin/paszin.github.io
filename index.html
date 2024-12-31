@@ -15,13 +15,9 @@
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="400">
     <meta property="og:description" content="Developer & Maker">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@PascaI">
-    <meta name="twitter:creator" content="@PascaI">
     <title>Pascal Crenzin</title>
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
-    <link rel="stylesheet" href="main.css">-->
-    <link rel="stylesheet" href="main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="icon" href="favicon.ico" sizes="32x32">
     <script defer src="https://unpkg.com/anchor-scroller@1.1.1/distribution/AnchorScroller.js"></script>
     <script defer src="main.js"></script>
@@ -73,7 +69,7 @@
                          src="https://avatars2.githubusercontent.com/u/9304382?v=4&u=36d964430007d6e3c9784cad3b51458f74003577&s=400.jpg"
                          width="140" height="140" itemprop="image">
                     <h1 class="title is-2" itemprop="name">Pascal Crenzin</h1>
-                    <h2 class="subtitle is-4" itemprop="description">Bachelor of Science | Developer | Maker</h2>
+                    <h2 class="subtitle is-4" itemprop="description">Master of Science | Software Engineer | Maker</h2>
                     <p>Hello,
 
                         I'm Pascal, not the physical unit, not the mathematician from the 16th century, and not the
@@ -83,8 +79,9 @@
                         discovered math, the power to describe everything. Finally I fall in love with programming, the
                         power to do everything.
 
-                        That's my story!<br class="is-hidden-small-screen"></p>
+                        <br class="is-hidden-small-screen"></p>
                     <br>
+                    <p>Scroll down to see more of my work</p>
                     <p class="has-text-centered">
                         <!--<a class="button is-large is-white" href="#projects">
                             <span class="icon">
@@ -99,6 +96,7 @@
     </div>
     <div class="hero-foot">
         <div class="container">
+
             <div class="tabs is-centered">
                 <ul>
                     <li>
@@ -129,19 +127,110 @@
 
 
 <section class="section hero is-fullheight is-default is-bold has-nice-link">
+    <div id="work" class="container">
+        <h1 class="title is-2">Work</h1>
+        <div>
+        <h2 class="flex-container"><b>Lead Software Developer @ FENISKA GmbH</b><span class="text-right">Berlin, since 03/2022</span></h2>
+        <div>
+        <p class="grid-container"><span class="smaller">THE COMPANY</span><span>FENISKA is a pet-tech health hardware startup</span></p>
+        <p class="grid-container"><span class="smaller">MY JOURNEY</span><span>I joined FENISKA as the first full-time Software Engineer. I implemented the firmware for an IoT-Device, Event Processing Pipelines, APIs, and the mobile App. Beeing part of a start-up I got in touch with a broad set of task beyond software engineering.</span></p>
+        <p class="grid-container"><span class="smaller">MY IMPACT</span><span>Bringing a hardware product to life, etablish a complex and efficient event-driven architecture on AWS and shaping a company culture</span></p>
+        <p class="grid-container"><span class="smaller">MY TECH STACK</span><span>Python, Javascript/Typescript, AWS (Lambda, DynamoDB, S3, SQS, SNS)</span></p>
+        </div>
+    </div>
+    <div class="divider"></div>
+        <h2 class="flex-container"><b>Founding Software Engineer @ Thullex GmbH</b><span class="text-right">Berlin, 10/2016 - 01/2022</span></h2>
+        <div>
+            <p class="grid-container"><span class="smaller">THE COMPANY</span><span>Thullex builds solutions for the fashion industry using 3D-scanning</span></p>
+            <p class="grid-container"><span class="smaller">MY JOURNEY</span><span>I joined Thullex at a very early stage in parallel to my master studies. I had the oprtunity to activly develop a specialized 3D-Scanning System for the producing garment industry.</span></p>
+            <p class="grid-container"><span class="smaller">MY IMPACT</span><span>Influencing essential business and software design decisions</span></p>
+            <p class="grid-container"><span class="smaller">MY TECH STACK</span><span>Python, Linux, Web Development using Vue.js</span></p>
+        </div>
+    <div class="divider"></div>
+    <h2 class="flex-container"><b>Software Intern @ SAP LABS INNOVATION CENTER</b><span class="text-right">Palo Alto, 10/2016 - 01/2022</span></h2>
+    <div>
+        <p class="grid-container"><span class="smaller">THE COMPANY</span><span>The SAP Innovation Center is part of SAP that works on innovative new projects</span></p>
+        <p class="grid-container"><span class="smaller">MY JOURNEY</span><span>My first full-time expierience started in the heart of the Sillicon Valley. I was part of a large team and had the chance not only to contribute but also to take ownership for smaller internal projects.</span></p>
+        <p class="grid-container"><span class="smaller">MY IMPACT</span><span>Pushing internal projects and etablishing test-driven-development for a company internal app</span></p>
+        <p class="grid-container"><span class="smaller">MY TECH STACK</span><span>Python (Flask), Angular, SAP UI5</span></p>
+    </div>
+    </div>
+</section>
+
+<section class="section hero is-fullheight is-default is-bold has-nice-link">
+    <h1 class="title is-2">Showcase Project</h1>
+    <div class="box">
+        <h2 class="title">
+            <p>A Recommendation System for Visualizing Sensor Data</p>
+            <p class="subtitle">Project & Master Thesis (submitted in 2022)</p>
+        </h2>
+        <h3>
+            
+        </h3>
+        <div style="text-align: center;">
+        <figure class="image">
+            <img class="center" src="media/vizlab.png" style="max-width: 500px;">
+        </figure>
+    </div>
+        
+        <p  style="text-align: justify"><p>Abstract:</p> <p>IoT platforms manage technical assets and sensors and gather sensor data. Sensor data
+            enables an in-depth understanding of real-world industrial processes, which can lead
+            to data-driven decision-making. Visualizations are frequently used for analyzing data.
+            While domain experts are usually familiar with the context of their assets, they are
+            less experienced in sensor data visualization. Consequently, domain knowledge and
+            visualization skills should be combined to create effective visualizations.</p><p>
+            This thesis presents a process and tools that support cooperation between domain
+            and visualization experts to analyze problems using visualizations. Preconfigured
+            visualizations will be provided in an easily accessible way. Domain experts formulate
+            problem statements, classify their intent, and select relevant assets and sensors. Upon
+            that, visualization experts can create visualizations. After the visualization has been
+            reviewed by domain experts, it can be published to all users of the system. In this thesis
+            tools and methods for common data preprocessing tasks and visualization configuration
+            tasks are designed and implemented. For data preprocessing, frequently occurring
+            preprocessing steps, such as calculating derived values or differences to previous values,
+            are provided.</p><p>
+            A recommendation system supports the configuration of visualizations. The re-
+            commendation system uses a rule-based approach. Recommendation guidelines by the
+            visualization community are translated into configurations of visualizations by using
+            visualization grammar. The rules include pre-existing visualization configurations,
+            characteristics of the problem statement, and statistical properties of the data. A recom-
+            mendation algorithm evaluates the rules and generates recommendations so inputs
+            can be auto-completed when configuring a visualization. It also suggests alternative or
+            advanced visualizations. The prior work of domain experts and visualization experts
+            lowers the entrance barrier for users to analyze sensor data through visualizations.</p>
+
+    </div>
+
+
+</section>
+
+<section class="section hero is-fullheight is-default is-bold has-nice-link">
     <div id="projects" class="container">
         <h1 class="title is-2">Projects</h1>
         <div class="columns is-multiline">
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
                 <div class="box">
                     <figure class="image">
+                        <img src="media/metatictactoe.png">
+                    </figure>
+                    <h2 class="title">
+                        <a target="_blank" href="https://paszin.github.io/meta-tic-tac-toe/">Meta Tic Tac Toe</a>
+                    </h2>
+                    <p class="subtitle is-6">Simple react app to play meta tic tac toe.</p>
+                    <a href="https://paszin.github.io/meta-tic-tac-toe/">play</a><span> |</span>
+                    <a href="https://github.com/paszin/meta-tic-tac-toe">view code on github</a>
+                </div>
+            </div>
+            <div class="column is-mobile is-half-tablet is-one-third-desktop">
+                <div class="box">
+                    <figure class="image">
                         <img src="media/ledclock.jpeg">
                     </figure>
                     <h2 class="title">
-                        <a href="https://paszin.medium.com/designing-a-wall-clock-for-my-living-room-f33537ed0a8f">TimeFrame</a>
+                        <a target="_blank" href="https://paszin.medium.com/designing-a-wall-clock-for-my-living-room-f33537ed0a8f">TimeFrame</a>
                     </h2>
                     <p class="subtitle is-6">A clock for my living room. Designed to be beautiful and unobtrusive.</p>
-                    <a href="https://paszin.medium.com/designing-a-wall-clock-for-my-living-room-f33537ed0a8f">Medium</a>
+                    <a target="_blank" href="https://paszin.medium.com/designing-a-wall-clock-for-my-living-room-f33537ed0a8f">Medium</a>
                 </div>
             </div>
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
@@ -150,7 +239,7 @@
                         <img src="media/project-dummy.jpg">
                     </figure>
                     <h2 class="title">
-                        <a href="https://github.com/paszin/fair-groups">Fair Groups</a>
+                        <a target="_blank" href="https://github.com/paszin/fair-groups">Fair Groups</a>
                     </h2>
                     <p class="subtitle is-6">2021: Small contribution to manage the challenges during a pandemic
                         situation. This tool enables schools to divide their classes in two equal groups. The tool
@@ -161,20 +250,20 @@
 			<div class="column is-mobile is-half-tablet is-one-third-desktop">
 				<div class="box">
 					<figure class="image">
-						<img src="media/project-dummy.jpg">
+						<img src="media/futurely.png">
 					</figure>
 					<h2 class="title">
-						<a href="https://paszin.github.io">Future.ly</a>
+						<a target="_blank" href="https://www.youtube.com/watch?v=p6Qi95RBOHo">Future.ly</a>
 					</h2>
 					<p class="subtitle is-6">An app for young people to visualize their future. Based on a design thinking challenge given by HUK COBURG. (university project)</p>
-					<a href="https://www.youtube.com/watch?v=p6Qi95RBOHo">Youtube</a>
+					<a href="https://www.youtube.com/watch?v=p6Qi95RBOHo">Presentation</a><span> |</span>
 					<a href="https://www.youtube.com/watch?v=pHgI5u7L_Zc">About Video</a>
 				</div>
 			</div>
 			<div class="column is-mobile is-half-tablet is-one-third-desktop">
 				<div class="box">
 					<figure class="image">
-						<img src="media/project-dummy.jpg">
+						<img src="media/unosimulation.png">
 					</figure>
 					<h2 class="title">
 						<a href="https://paszin.github.io">Card Game Simulation</a>
@@ -189,11 +278,11 @@
                         <img src="media/lyricsquiz.png">
                     </figure>
                     <h2 class="title">
-                        <a href="http://paszin.github.io/lyricsquiz">LyricsQuiz!</a>
+                        <a  href="http://paszin.github.io/lyricsquiz">LyricsQuiz!</a>
                     </h2>
                     <p class="subtitle is-6">You see a part of the lyrics. Can you guess the title of the song? A quiz
                         based on your personal spotify collection</p>
-                    <a href="http://paszin.github.io/lyricsquiz">play!</a>
+                    <a href="http://paszin.github.io/lyricsquiz">github</a>
                 </div>
             </div>
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
@@ -205,8 +294,7 @@
                         <a href="http://www.bottlelab.de">Bottle Lab Berlin</a>
                     </h2>
                     <p class="subtitle is-6">Transform unused bottles to furniture leveraging 3D-printing</p>
-                    <a href="https://www.instagram.com/bottlelabberlin/">instagram</a> <a
-                        href="http://www.bottlelab.de">website (de)</a>
+                    <a href="https://www.instagram.com/bottlelabberlin/">instagram</a>
                 </div>
             </div>
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
@@ -246,7 +334,7 @@
                         project)</p>
                 </div>
             </div>
-            <div class="column is-mobile is-half-tablet is-one-third-desktop">
+            <!-- <div class="column is-mobile is-half-tablet is-one-third-desktop">
                 <div class="box">
                     <figure class="image">
                         <img src="media/project-dummy.jpg">
@@ -257,7 +345,7 @@
                     <p class="subtitle is-6">digital oldschool, ask somebody to go out with you the modern oldschool
                         way</p>
                 </div>
-            </div>
+            </div> -->
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
                 <div class="box">
                     <figure class="image">
@@ -285,7 +373,7 @@
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
                 <div class="box">
                     <figure class="image">
-                        <img src="media/project-dummy.jpg">
+                        <img src="media/metamaterials.png">
                     </figure>
                     <h2 class="title">
                         <a href="">Metamaterials Editor</a>
@@ -311,7 +399,7 @@
             <div class="column is-mobile is-half-tablet is-one-third-desktop">
                 <div class="box">
                     <figure class="image">
-                        <img src="media/project-dummy.jpg">
+                        <img src="media/earthcare.png">
                     </figure>
                     <h2 class="title">
                         <a>EarthCare</a>
