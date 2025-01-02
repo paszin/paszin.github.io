@@ -1,12 +1,11 @@
 
 MY Website
 
-Design inspired by [sindresorhus.com](https://sindresorhus.com)
 
 
 # Projects Backlog
 
-
+- **Fotobox**
 - **Resume Analysis** (#sap #angular #machinelearning) https://arxiv.org/pdf/1606.05611.pdf
 - **ChargeIT** (#sap #python #backend #flask)
 - **Soundcloud Mashup** (#music #angular)
